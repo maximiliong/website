@@ -1,6 +1,148 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/*
+body {
   background: pink;
   text-align: center;
+} */
+
+/* header {
+  width: 100%;
+} */
+
+/* .webmadewell {
+  background-color: white;
+} */
+
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #28282b;
+}
+
+section {
+  height: 100%;
+}
+
+img {
+  border-radius: 1rem;
+  max-width: 15rem;
+  height: auto;
+}
+
+.people-img-div {
+  padding-bottom: 1rem;
+}
+
+.section-concept-introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 2rem;
+}
+
+.concept-introduction h2 {
+  margin-bottom: 1rem;
+}
+
+.section-people-introduction h2 {
+  width: 100%;
+}
+
+.main-wrapper {
+  max-width: 70%;
+  min-width: 70%;
+}
+
+.section-people-introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.people-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid whitesmoke;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+}
+
+.people-wrapper-even {
+  flex-direction: row-reverse;
+}
+
+.people-text-div {
+  min-width: 20%;
+  max-width: 70%;
+}
+
+.header {
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-image: url(https://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.company-name {
+  position: relative;
+  padding: 15% 0 10%;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  color: whitesmoke;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.5mm;
+}
+h2 {
+  color: whitesmoke;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.3cm;
+  border-bottom: solid whitesmoke;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 0.2cm;
+  font-weight: 500;
+  padding-bottom: 0.2rem;
+}
+
+h4 {
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 0.1cm;
+  font-weight: 500;
+  font-size: smaller;
+}
+
+p {
+  padding-top: 1rem;
+  hyphens: auto;
+  line-height: 0.7cm;
+  color: whitesmoke;
+  text-align: justify;
 }
