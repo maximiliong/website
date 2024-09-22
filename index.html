@@ -3,22 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HighFiveConsulting</title>
+    <title>Maxim-stinkt</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="script.js"></script>
   </head>
   <body>
+    <!--    Made by Erik Terwan    -->
+    <!--   24th of November 2015   -->
+    <!--        MIT License        -->
+    <nav class="navigation" role="navigation">
+      <div id="menuToggle">
+        <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+        <input type="checkbox" />
+
+        <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+        <ul id="menu">
+          <a href="#what-do-we-do"><li>Company description</li></a>
+          <a href="#meet-the-team"><li>Meet the team</li></a>
+          <a href="#contact"><li>Contact</li></a>
+          <a href="#legal-notice"><li>Legal Notice</li></a>
+        </ul>
+      </div>
+    </nav>
     <header class="header">
       <div class="company-name">
-        <h1>HighFiveConsulting</h1>
+        <h1>testest</h1>
       </div>
     </header>
     <main>
-      <p>contact us:</p>
-      <a href="mailto:kuba@example.com" class="contact">kuba@example.com</a>
       <div class="main-wrapper">
-        <section class="section-concept-introduction">
+        <section id="what-do-we-do" class="section-concept-introduction">
           <div class="concept-introduction">
             <h2>What do we do?</h2>
             <p>
@@ -36,10 +67,7 @@
             </p>
           </div>
         </section>
-      </div>
-      <section class="section-transparent"></section>
-      <div class="main-wrapper">
-        <section class="section-people-introduction">
+        <section id="meet-the-team" class="section-people-introduction">
           <h2>Meet the team</h2>
           <div class="people-wrapper">
             <div class="people-img-div">
@@ -134,8 +162,26 @@
             </div>
           </div>
         </section>
+        <section id="contact" class="section-contact">
+          <h2>contact</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+            optio provident esse, nam ipsum corporis. Harum non delectus,
+            eligendi recusandae ipsa earum, ad quos totam esse soluta amet aut
+            tenetur!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde animi
+            beatae veritatis molestiae nesciunt! Maxime, veniam autem.
+            Necessitatibus soluta, quod est aut saepe aliquid, possimus eum
+            laboriosam illum quaerat enim!
+          </p>
+        </section>
       </div>
     </main>
-    <footer class="footer"></footer>
+    <footer id="legal-notice" class="footer">
+      <div class="-legal-contact"></div>
+      <div class="legal-"></div>
+    </footer>
   </body>
 </html>
