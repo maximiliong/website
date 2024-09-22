@@ -136,6 +136,11 @@ img {
   background-repeat: repeat-y;
 }
 
+.contact {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
 .company-name {
   position: relative;
   margin-left: auto;
